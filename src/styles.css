@@ -1,0 +1,118 @@
+body {
+  font-family: sans-serif;
+}
+body {
+  background-image: url(http://www.gobentong.com/uploads/7cfbf1398d569ca3e90c96635887a81f.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+.nav-area {
+  margin: -30px auto;
+  width: 950px;
+}
+#menu li {
+  list-style: none;
+  display: block;
+  float: left;
+  margin: 6px;
+}
+#menu li a {
+  display: block;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 2px 15px;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+#menu li a:hover {
+  background: #333;
+}
+.menu-bg {
+  background: #c20a34;
+  margin: 3em 0;
+  z-index: 400;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  height: 50px;
+}
+.angel-1 {
+  border-color: #c20a34 transparent transparent;
+  left: -50px;
+  top: 1px;
+  float: left;
+  position: relative;
+  width: 0;
+  height: 0;
+  border-width: 50px;
+  border-style: solid;
+}
+.angel-2 {
+  border-color: transparent transparent #c20a34;
+  left: -150px;
+  top: -46px;
+  float: left;
+  position: relative;
+  width: 0;
+  height: 0;
+  border-width: 50px;
+  border-style: solid;
+}
+.angel-3 {
+  border-color: #c20a34 transparent transparent;
+  right: -49px;
+  top: -98px;
+  float: right;
+  position: relative;
+  width: 0;
+  height: 0;
+  border-width: 50px;
+  border-style: solid;
+}
+.angel-4 {
+  border-color: transparent transparent #c20a34;
+  right: -145px;
+  top: -144px;
+  float: right;
+  position: relative;
+  width: 0;
+  height: 0;
+  border-width: 50px;
+  border-style: solid;
+}
+.home-text {
+  margin-top: 10%;
+  background: rgba(0, 0, 0, 0.5);
+  width: 500px;
+  padding: 5%;
+}
+.home-text h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 0;
+}
+.home-text p {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.home-text a {
+  color: #fff;
+  background: #c20a34;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
